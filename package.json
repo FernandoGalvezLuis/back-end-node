@@ -1,0 +1,40 @@
+{
+  "name": "back-end-node",
+  "description": "Proyecto back-end-node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoGalvezLuis/back-end-node.git"
+  },
+  "keywords": [
+    "backend",
+    "back",
+    "end",
+    "proyecto",
+    "Fernando"
+  ],
+  "author": "Fernando Galvez-Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoGalvezLuis/back-end-node/issues"
+  },
+  "homepage": "https://github.com/FernandoGalvezLuis/back-end-node#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "req-flash": "^0.0.3",
+    "uuid4": "^2.0.3"
+  }
+}
